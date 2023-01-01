@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="17px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>microsoft-windows-22</title>
+    <defs>
+        <path d="M0,2.33610412 L6.74308608,1.42066898 L6.74598647,7.90485665 L0.00612304701,7.94308813 L0,2.33616837 L0,2.33610412 Z M6.73986343,8.65188051 L6.74501968,15.1417226 L0.00522070324,14.2179343 L0.00483398448,8.60838015 L6.73979897,8.65188051 L6.73986343,8.65188051 Z M7.55725798,1.30083417 L16.4979379,0 L16.4979379,7.82235376 L7.55725798,7.89303381 L7.55725798,1.30089842 L7.55725798,1.30083417 Z M16.5000004,8.71292237 L16.4978734,16.5000004 L7.55719352,15.242024 L7.54468962,8.69833658 L16.5000004,8.71292237 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.6">
+        <g id="4" transform="translate(-315.000000, -316.000000)">
+            <g id="Group-9" transform="translate(20.000000, 122.000000)">
+                <g id="Group-5" transform="translate(15.000000, 133.000000)">
+                    <g id="microsoft-windows-22" transform="translate(280.000000, 61.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Shape" fill="#FFFFFF" fill-rule="nonzero" xlink:href="#path-1"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

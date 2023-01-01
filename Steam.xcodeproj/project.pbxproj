@@ -7,18 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F7794897295D7C7D00A2414C /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7794896295D7C7D00A2414C /* ChatView.swift */; };
+		F7794899295D83E600A2414C /* StoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7794898295D83E600A2414C /* StoreView.swift */; };
 		F7800E5D295C053F00F6F7E5 /* SteamApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7800E5C295C053F00F6F7E5 /* SteamApp.swift */; };
-		F7800E5F295C053F00F6F7E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7800E5E295C053F00F6F7E5 /* ContentView.swift */; };
 		F7800E61295C054000F6F7E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7800E60295C054000F6F7E5 /* Assets.xcassets */; };
 		F7800E64295C054000F6F7E5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7800E63295C054000F6F7E5 /* Preview Assets.xcassets */; };
+		F7800E6C295C056C00F6F7E5 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7800E6B295C056C00F6F7E5 /* Color+Extension.swift */; };
+		F7800E71295C08CF00F6F7E5 /* Gilroy-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F7800E70295C08CF00F6F7E5 /* Gilroy-Bold.ttf */; };
+		F7800E72295C08D300F6F7E5 /* Gilroy-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F7800E6F295C08C000F6F7E5 /* Gilroy-Heavy.ttf */; };
+		F7800E74295C08DA00F6F7E5 /* Gilroy-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F7800E73295C08DA00F6F7E5 /* Gilroy-Medium.ttf */; };
+		F7800E76295C099D00F6F7E5 /* Font+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7800E75295C099D00F6F7E5 /* Font+Extension.swift */; };
+		F7800E7A295C0B4100F6F7E5 /* MasterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7800E79295C0B4100F6F7E5 /* MasterView.swift */; };
+		F7800E7C295C0DD800F6F7E5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7800E7B295C0DD800F6F7E5 /* HomeView.swift */; };
+		F7800E7E295C1D1700F6F7E5 /* CommunityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7800E7D295C1D1700F6F7E5 /* CommunityView.swift */; };
+		F799C174295EC90B0028026F /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = F799C173295EC90B0028026F /* Store.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F7794896295D7C7D00A2414C /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		F7794898295D83E600A2414C /* StoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreView.swift; sourceTree = "<group>"; };
 		F7800E59295C053F00F6F7E5 /* Steam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Steam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7800E5C295C053F00F6F7E5 /* SteamApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SteamApp.swift; sourceTree = "<group>"; };
-		F7800E5E295C053F00F6F7E5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F7800E60295C054000F6F7E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7800E63295C054000F6F7E5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F7800E6B295C056C00F6F7E5 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		F7800E6F295C08C000F6F7E5 /* Gilroy-Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Heavy.ttf"; sourceTree = "<group>"; };
+		F7800E70295C08CF00F6F7E5 /* Gilroy-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Bold.ttf"; sourceTree = "<group>"; };
+		F7800E73295C08DA00F6F7E5 /* Gilroy-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Medium.ttf"; sourceTree = "<group>"; };
+		F7800E75295C099D00F6F7E5 /* Font+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+Extension.swift"; sourceTree = "<group>"; };
+		F7800E77295C0A7300F6F7E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F7800E79295C0B4100F6F7E5 /* MasterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterView.swift; sourceTree = "<group>"; };
+		F7800E7B295C0DD800F6F7E5 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		F7800E7D295C1D1700F6F7E5 /* CommunityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityView.swift; sourceTree = "<group>"; };
+		F799C173295EC90B0028026F /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +72,14 @@
 		F7800E5B295C053F00F6F7E5 /* Steam */ = {
 			isa = PBXGroup;
 			children = (
+				F7800E77295C0A7300F6F7E5 /* Info.plist */,
 				F7800E5C295C053F00F6F7E5 /* SteamApp.swift */,
-				F7800E5E295C053F00F6F7E5 /* ContentView.swift */,
 				F7800E60295C054000F6F7E5 /* Assets.xcassets */,
+				F7800E6A295C055A00F6F7E5 /* Common */,
+				F799C172295EC8F20028026F /* Data */,
+				F7800E78295C0B3200F6F7E5 /* Presentation */,
 				F7800E62295C054000F6F7E5 /* Preview Content */,
+				F7800E6D295C08A600F6F7E5 /* Support */,
 			);
 			path = Steam;
 			sourceTree = "<group>";
@@ -65,6 +90,53 @@
 				F7800E63295C054000F6F7E5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F7800E6A295C055A00F6F7E5 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				F7800E6B295C056C00F6F7E5 /* Color+Extension.swift */,
+				F7800E75295C099D00F6F7E5 /* Font+Extension.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		F7800E6D295C08A600F6F7E5 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				F7800E6E295C08B400F6F7E5 /* Font */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		F7800E6E295C08B400F6F7E5 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				F7800E73295C08DA00F6F7E5 /* Gilroy-Medium.ttf */,
+				F7800E70295C08CF00F6F7E5 /* Gilroy-Bold.ttf */,
+				F7800E6F295C08C000F6F7E5 /* Gilroy-Heavy.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		F7800E78295C0B3200F6F7E5 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				F7800E79295C0B4100F6F7E5 /* MasterView.swift */,
+				F7800E7B295C0DD800F6F7E5 /* HomeView.swift */,
+				F7800E7D295C1D1700F6F7E5 /* CommunityView.swift */,
+				F7794896295D7C7D00A2414C /* ChatView.swift */,
+				F7794898295D83E600A2414C /* StoreView.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		F799C172295EC8F20028026F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				F799C173295EC90B0028026F /* Store.swift */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +197,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7800E72295C08D300F6F7E5 /* Gilroy-Heavy.ttf in Resources */,
+				F7800E71295C08CF00F6F7E5 /* Gilroy-Bold.ttf in Resources */,
+				F7800E74295C08DA00F6F7E5 /* Gilroy-Medium.ttf in Resources */,
 				F7800E64295C054000F6F7E5 /* Preview Assets.xcassets in Resources */,
 				F7800E61295C054000F6F7E5 /* Assets.xcassets in Resources */,
 			);
@@ -137,7 +212,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7800E5F295C053F00F6F7E5 /* ContentView.swift in Sources */,
+				F7800E6C295C056C00F6F7E5 /* Color+Extension.swift in Sources */,
+				F7800E76295C099D00F6F7E5 /* Font+Extension.swift in Sources */,
+				F7794899295D83E600A2414C /* StoreView.swift in Sources */,
+				F799C174295EC90B0028026F /* Store.swift in Sources */,
+				F7800E7E295C1D1700F6F7E5 /* CommunityView.swift in Sources */,
+				F7800E7A295C0B4100F6F7E5 /* MasterView.swift in Sources */,
+				F7794897295D7C7D00A2414C /* ChatView.swift in Sources */,
+				F7800E7C295C0DD800F6F7E5 /* HomeView.swift in Sources */,
 				F7800E5D295C053F00F6F7E5 /* SteamApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +352,7 @@
 				DEVELOPMENT_TEAM = ZUNYJ43SN4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Steam/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +382,7 @@
 				DEVELOPMENT_TEAM = ZUNYJ43SN4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Steam/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
